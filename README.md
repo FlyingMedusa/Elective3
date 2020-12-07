@@ -15,5 +15,7 @@
 - adding elements
 - list comprehension
 #### some exam questions:
+- B
 - H
+- K
 - L
