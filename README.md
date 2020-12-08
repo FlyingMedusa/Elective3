@@ -16,6 +16,9 @@
 - list comprehension
 #### some exam questions:
 - B
+- C
+- D
 - H
+- J
 - K
 - L
