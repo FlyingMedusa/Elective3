@@ -29,16 +29,17 @@ vowmap = {
     'eə': ['',			'pair']
 }
 
-vow = []
-cons = []
+#solution
+palatals = vowels = consonants = 0
 for word in esop:
-    for sound in word.split():
-        if sound in vowmap:
-            vow.append(sound)
+    for phon in word.split():
+        if phon in vowmap:
+            vowels += 1
+            if vowmap[phon][0]=='palatal':
+                palatals += 1
         else:
-            cons.append(sound)
-
-
-pal = [p for p in vow if vowmap[p][0] == 'palatal']
-
-print("The text 'esop' contains", len(vow),"vowels including", len(pal),"palatal ones, palatals therefore constitute", round(eval(str(len(pal)/len(vow)*100)),1),"%. In the text, there are", len(cons),"consonants, which constitute", round(eval(str(len(cons)/(len(vow)+len(cons))*100)),1), "% of all phonemes.")
+            consonants += 1
+print('The text \'esop\' contains', vowels, 'vowels including', palatals, 
+      'palatal ones, palatals therefore constitute', str(round((palatals/(vowels))*100,2)) +
+      '%. In the text, there are', consonants, 'consonants, which constitute',
+      str(round((consonants/(consonants+vowels))*100,2)) + '% of all phonemes.')

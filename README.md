@@ -18,7 +18,9 @@
 - A - checking data type in a string
 - B - percentages of names ending with 'a'
 - C - cons, vow, voiced, voiceless - dictionary of lists
-- D
+- D - cons, vow, palatals - dictionary of lists 
+- E - dictionaries of lists, list of tuples - table format output
+- F - transcription to IPA - dictionary of lists
 - H
 - J
 - K
