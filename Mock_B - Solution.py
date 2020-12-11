@@ -16,5 +16,5 @@ lenz = len(z)
 print('zenskie:', str(round((endina/lenz)*100,2))+'%')
 
 #LIST COMPREHENSION
-z = meskie.split() 
+z = meskie.split()
 print('meskie:', str(round((len([i for i in z if i[-1] == 'a']) / len(z)) * 100, 2)) + '%')
