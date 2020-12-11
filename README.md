@@ -21,7 +21,9 @@
 - D - cons, vow, palatals - dictionary of lists 
 - E - dictionaries of lists, list of tuples - table format output
 - F - transcription to IPA - dictionary of lists
-- H
+- G - POA - dictionary of lists - table format output
+- H - POA teaching program
+- I - words starting with voiced and voiceless cons - dictionary of lists
 - J
 - K
 - L
