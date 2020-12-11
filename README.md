@@ -15,8 +15,9 @@
 - adding elements
 - list comprehension
 #### some exam questions:
-- B
-- C
+- A - checking data type in a string
+- B - percentages of names ending with 'a'
+- C - cons, vow, voiced, voiceless - dictionary of lists
 - D
 - H
 - J
