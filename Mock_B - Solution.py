@@ -3,16 +3,16 @@ meskie = 'Aaron Abdon Abel Abelard Abraham Achilles Adam Adelard Adnan Adrian Ag
 
 #solution
 #LIST COMPREHENSION
-z = zenskie.split()
-print('zenskie:', str(round((len([i for i in z if i[-1] == 'a']) / len(z)) * 100, 2)) + '%')
+zen = zenskie.split()
+print('zenskie:', str(round((len([i for i in zen if i[-1] == 'a']) / len(zen)) * 100, 2)) + '%')
 
 #STANDARD FOR LOOP
-z = zenskie.split()
+zen = zenskie.split()
 endina = 0
-for i in z:
+for i in zen:
     if i[-1] == 'a':
         endina += 1
-lenz = len(z)
+lenz = len(zen)
 print('zenskie:', str(round((endina/lenz)*100,2))+'%')
 
 #LIST COMPREHENSION

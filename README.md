@@ -22,8 +22,9 @@
 - E - dictionaries of lists, list of tuples - table format output
 - F - transcription to IPA - dictionary of lists
 - G - POA - dictionary of lists - table format output
-- H - POA teaching program
+- H - responsive POA teaching program
 - I - words starting with voiced and voiceless cons - dictionary of lists
-- J
-- K
-- L
+- J - cons clusters
+- K - palindromes
+- L - responsive dictionary of lists - adding translations
+- M - responsive dictionary of lists: deleting redundant translations
