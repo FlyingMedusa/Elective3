@@ -4,6 +4,10 @@
 <p> A repository for the 'elective3 stuff'
 <br> English Linguistics: Theories, Interfaces, Technology </p>
 
+### IMPORTANT:
+<p> token is <b>not unique</b> - len(text) </p>
+<p> type in <b>unique</b> - len(set(text))</p>
+
 ### Content so far: <br>
 
 #### dictionaries:
@@ -28,3 +32,4 @@
 - K - palindromes
 - L - responsive dictionary of lists - adding translations
 - M - responsive dictionary of lists: deleting redundant translations
+#### regex basics
